@@ -1,17 +1,12 @@
-console.log("Hola mundo again")
-
 const nombre = "Juan"
-const apellido = "Juan"
+const apellido = "Moreno "
 
-let valorDado = 5
-valorDado = 4
+const nombreCompleto = `Hola ${nombre} ${apellido}`
 
+console.log(nombreCompleto);
 
-console.log(nombre, apellido, valorDado);
-
-if (true) {
-    const nombre = "Otro"
-    console.log(nombre);
+function getSaludo(nombre) {
+    return `Hola mundo ${nombre}`
 }
 
-console.log( valorDado );
+console.log(`Este es un texto: ${getSaludo(nombre)}`);
