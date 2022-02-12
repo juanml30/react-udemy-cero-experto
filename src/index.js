@@ -1,1 +1,1 @@
-console.log("playing");
+console.log("Terminado el repaso")
