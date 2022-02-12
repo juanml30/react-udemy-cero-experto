@@ -1,1 +1,1 @@
-console.log("Starting Video 8");
+console.log("Iniciando clase 23" );
