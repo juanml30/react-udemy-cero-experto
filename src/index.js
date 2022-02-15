@@ -3,6 +3,6 @@ import ReactDOM from "react-dom";
 import PrimeraApp from "./PrimeraApp";
 import "./index.css"
 
-const Root = document.querySelector("#root");
+const app = document.querySelector("#app");
 
-ReactDOM.render(<PrimeraApp />, Root);
+ReactDOM.render(<PrimeraApp />, app);
