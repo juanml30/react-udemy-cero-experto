@@ -18,17 +18,14 @@ describe("Probando importancion y exportacion", () => {
   test("Debe devolver los heroes de DC", () => {
     const own = "DC";
     const dcTest = heroes.filter((h) => h.owner === own);
-    const dc = getHeroesByOwner(own)
-    expect(dc).toStrictEqual(dcTest)
+    const dc = getHeroesByOwner(own);
+    expect(dc).toStrictEqual(dcTest);
   });
 
   test("Debe devolver cantidad de heores de marvel", () => {
     const own = "Marvel";
-    const dcTest = (heroes.filter((h) => h.owner === own)).length;
-    const dc = getHeroesByOwner(own).length
-    expect(dc).toBe(dcTest)
+    const dcTest = heroes.filter((h) => h.owner === own).length;
+    const dc = getHeroesByOwner(own).length;
+    expect(dc).toBe(dcTest);
   });
-
-
-
 });
